@@ -1,0 +1,20 @@
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* Main Content */
+main {
+    padding: 3rem;
+}
+
+.index-title {
+    text-align: center;
+}
+
