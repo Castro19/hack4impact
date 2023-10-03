@@ -1,0 +1,59 @@
+/* Reset and Globals */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+a:hover {
+    color: #005bb5;
+}
+
+/* Main Content */
+main {
+    padding: 3rem;
+}
+
+.Education-title, .Honors-title, .Projects-title, .Experience-title, .tools-title {
+    text-align: center;
+}
+.resume-section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.resume-section, .tools-section, .experience-section, .projects-section {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.entry {
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 1.5em 2em;
+    text-align: center;
+}
