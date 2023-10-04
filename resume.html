@@ -14,10 +14,16 @@
         <link rel="stylesheet" href="navbar.css">
         <link rel="stylesheet" href="resume.css">
         <link rel="stylesheet" href="footer.css">
+
     </head>
     <body>
         <main>
-            <h1 class="resume-section-title">Cristian Castro Oliva's Resume</h1>
+            <div class="resume-header">
+                <h1 class="resume-section-title">Cristian Castro Oliva's Resume</h1>
+                <a class="resume-file" href="resume.pdf" download>
+                    <i></i> Download My Resume
+                </a>
+            </div>
             <!-- Education Section -->
             <section class="resume-section">
                 <h2 class="Education-title">Education</h2>
@@ -40,6 +46,7 @@
                 <div class="info">
                     <h3>2023 President's Medallion Recipient, Clovis Community College</h3>
                     <p>Distinguished as the sole recipient of the college's most prestigious award, selected by the College President from a graduating class of 1,131. Recognized for exemplary leadership, significant community contribution, and superior academic achievement.</p>
+                    <p><a href="https://www.cloviscollege.edu/landing/commencement-highlights-2023.html"><b>Extra Information</b> </a></p>
                 </div>
             </section>
 
@@ -49,18 +56,31 @@
                 <div class="info">
                     <h3>Schedule Builder (SEP) for Clovis Community College</h3>
                     <p><a href="https://www.ccc-sep.com/">https://www.ccc-sep.com/</a></p>
-                    <p>Instantaneous SEP Creation: Streamlines the 2-3 year academic planning process, converting a traditionally hour-long task to seconds.</p>
-                    <!-- ... More details about the project ... -->
+                    <p><b>Tools Used:</b> Flask, Python, HTML, CSS, JS, PostgreSQL, Heroku, AWS S3, pandas, Redis, ... </p>
+                    <p><b>Instantaneous SEP Creation:</b> Streamlines the 2-3 year academic planning process, converting a traditionally hour-long task to seconds.</p>
+                    <p> <b>Degree Finder:</b> Find earned and near-completion degrees based on the student's schedule,
+                    reducing a 30-minute manual search to an instant.</p>
+                    <p><b>Comprehensive Requirement Checker:</b> Provides a one-stop solution for all transfer services.
+                    Combines requirements for transfer, degree, and IGETC/CSU-GE to save students and counselors
+                    hours of time from navigating lengthy catalogs and complex PDFs.</p>
+                    <p><b>Development Practices:</b> Implemented CI/CD pipelines, developed comprehensive test cases for
+                    2,700+ transfer agreement combinations, and employed a multi-branch strategy (development,
+                    testing, production) to ensure a streamlined development</p>
+                    <p><b>Time & Cost Efficiency:</b> Reduces manual SEP & degree identification time, with potential annual
+                    savings for CCC of $200,000+ along with an increase in the number of degrees students earn</p>
                 </div>
             </section>
-
             <!-- Experience Section -->
             <section class="experience-section">
                 <h2 class="Experience-title">Experience</h2>
                 <div class="info">
                     <h3>Clovis Community College STEM Tutor</h3>
                     <p>July 2022 - July 2023</p>
-                    <p>Tutored students across a diverse range of subjects, including Computer Science, Physics, Information Systems, and Mathematics.</p>
+                    <li>Tutored students across a diverse range of subjects, including Computer Science, Physics, Information Systems, and Mathematics.</li>
+                    <li>Facilitated study sessions for large groups, providing guidance on study guides, practice problems,
+                    and exam preparation. </li>
+                    <li>Collaborated closely with professors to develop engaging learning materials, highlight areas of
+                    common student confusion, and enhance the overall learning environment.</li>
                     <!-- ... More details about the experience ... -->
                 </div>
             </section>
@@ -71,6 +91,12 @@
                 <div class="info">
                     <h3>Developer Tools</h3>
                     <p>VS code | GitHub | Heroku | AWS | UNIX | Raspberry Pi Configuration</p>
+                    <h3>Python Libraries</h3>
+                    <p> Flask | pandas | numpy | Sentry | Redis | boto3 | spaCy | TensorFlow | sklearn | Selenium | pytest | werkzeug | Requests | DiscordPy | sendgrid | dotenv | re | urllib | json</p>
+                    <h3>JavaScript Features & Libraries</h3>
+                    <p>ES6 | Fetch API | Promises | DOM | jQuery | AJAX | JSON</p>
+                    <h3>Database & ORM</h3>
+                    <p>PostgreSQL | MySQL | SQLAlchemy | Flask-SQLAlchemy</p>
                     <!-- ... More details about the tools & technologies ... -->
                 </div>
             </section>
